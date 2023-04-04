@@ -1,0 +1,32 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItem{
+    flex:1;
+    margin:10px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px;
+    -webkit-box-shadow: -1px 1px 9px 4px #000000; 
+    box-shadow: -1px 1px 9px 4px #000000;
+    height: 100px;
+}
+/* .featuredItem:hover{
+    background-color: red;
+} */
+
+.featuredTitle{
+    font-size: 15px;
+}
+.featuredMoneyContainer{
+    margin: 3px 0px;
+    display: flex;
+    align-items: center;
+}
+.featuredMoney{
+    font-size: 20px;
+}

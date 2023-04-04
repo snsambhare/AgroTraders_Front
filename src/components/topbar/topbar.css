@@ -1,0 +1,16 @@
+.topbar {
+  text-align: center;
+  height: 100vm;
+
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fd7e14;
+  position: sticky;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
